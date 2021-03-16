@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kyc-react-sample-function-base/static/css/main.4549cb46.chunk.css",
+    "main.js": "/kyc-react-sample-function-base/static/js/main.5779fe59.chunk.js",
+    "main.js.map": "/kyc-react-sample-function-base/static/js/main.5779fe59.chunk.js.map",
+    "runtime-main.js": "/kyc-react-sample-function-base/static/js/runtime-main.50a34779.js",
+    "runtime-main.js.map": "/kyc-react-sample-function-base/static/js/runtime-main.50a34779.js.map",
+    "static/js/2.6fe1f9ae.chunk.js": "/kyc-react-sample-function-base/static/js/2.6fe1f9ae.chunk.js",
+    "static/js/2.6fe1f9ae.chunk.js.map": "/kyc-react-sample-function-base/static/js/2.6fe1f9ae.chunk.js.map",
+    "static/js/3.9f83b0fb.chunk.js": "/kyc-react-sample-function-base/static/js/3.9f83b0fb.chunk.js",
+    "static/js/3.9f83b0fb.chunk.js.map": "/kyc-react-sample-function-base/static/js/3.9f83b0fb.chunk.js.map",
+    "index.html": "/kyc-react-sample-function-base/index.html",
+    "static/css/main.4549cb46.chunk.css.map": "/kyc-react-sample-function-base/static/css/main.4549cb46.chunk.css.map",
+    "static/js/2.6fe1f9ae.chunk.js.LICENSE.txt": "/kyc-react-sample-function-base/static/js/2.6fe1f9ae.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50a34779.js",
+    "static/js/2.6fe1f9ae.chunk.js",
+    "static/css/main.4549cb46.chunk.css",
+    "static/js/main.5779fe59.chunk.js"
+  ]
+}
