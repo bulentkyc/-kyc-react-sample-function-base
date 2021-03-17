@@ -8,22 +8,22 @@ function App() {
   const [countries, setCountries] = useState();
 
   useEffect(() => {
-    console.log('start');
     let url = 'https://restcountries.eu/rest/v2/all';
+    let headers = {};
+    let key = '';
+    let timeDiff = '1d';
+    let log = 'true';
+    let component = (item) => {
+      return (
+        <CustomComponent 
+          imgSrc = {item.flag} 
+          title = {item.name}
+        />
+      );
+    }
 
-    kyc(url, {
-        log: 'true',
-        timeDiff:'1',
-        component:(item)=>
-						<Card 
-							imgSrc = {item.flag} 
-							title = {item.name}
-						/>
-      }
-    ).then(output => {
-      setCountries(output);
-      console.log(output);
-    });
+    kyc(url, {log, timeDiff, component})
+    .then(output => setCountries(output));
   }, []);
 
   return (
